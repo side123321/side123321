@@ -24,6 +24,7 @@ header {
 .menu-list {
     display: flex;
     list-style-type: none;
+    transition: all 1s ease 0s;
 }
 
 .menu-item:not(:last-child) {
@@ -74,3 +75,19 @@ main {
   margin: 0 auto;
   font-size: 17px;
 }
+.shadow-text{
+    color: #fffefe; /* Цвет  текста */
+    font-size: 20px; /* Размер  текста */
+    font-weight: bold;
+    padding: 0px 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  }
+  .shadow-text:hover{
+    color: #999999; /* Меняем цвет текста */
+    -webkit-text-shadow: 2px 2px 2px #000;
+    -moz-text-shadow: 2px 2px 2px #000;
+        text-shadow: 2px 2px 2px #000;
+  }
