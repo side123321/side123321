@@ -64,7 +64,7 @@ main {
     background-color: #db8400;
     color: #fff;
     padding: 15px 25px;
-    transition: all 1s ease 0s;
+    transition: all 0.5s ease 0s;
 }
 .link:hover {
     background-color: #9c9c9c;
@@ -86,7 +86,7 @@ main {
             transition: all 0.5s ease;
   }
   .shadow-text:hover{
-    color: #999999; /* Меняем цвет текста */
+    color: #858585; /* Меняем цвет текста */
     -webkit-text-shadow: 2px 2px 2px #000;
     -moz-text-shadow: 2px 2px 2px #000;
         text-shadow: 2px 2px 2px #000;
