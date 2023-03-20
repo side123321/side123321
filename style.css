@@ -68,3 +68,9 @@ main {
 .link:hover {
     background-color: #9c9c9c;
 }
+.main
+{
+  width: 978px;
+  margin: 0 auto;
+  font-size: 17px;
+}
